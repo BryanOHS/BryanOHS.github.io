@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+
+#profile{
+    position: relative;
+    width: 90%;
+    height: 500px;
+    background: rgb(63, 63, 63);
+    display: flexbox;
+    margin: 30px auto;
+}
+#profile_image{
+    float: left;
+    text-align: center;
+    margin: 30px;
+}
+.profileImg{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;    
+    overflow: hidden;
+    
+}
+
+.user_info{
+    float: right;
+    
+}
